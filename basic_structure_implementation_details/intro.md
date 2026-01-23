@@ -8,3 +8,8 @@ typedef struct _object {
     PyTypeObject *ob_type;
 } PyObject;
 ```
+
+## Everything is a pointer
+* Aliasing bugs
+* copy() matters
+* Mutable defaults are dangerous
